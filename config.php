@@ -1,5 +1,5 @@
 <?php
 
-$connect = mysqli_connect('localhost','root','','novel-web') or die('koneksi gagal');
+$conn = mysqli_connect('localhost','root','','my_book') or die('connection failed');
 
 ?>
