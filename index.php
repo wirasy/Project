@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,4 +22,3 @@
     </nav>
 </body>
 </html>
->>>>>>> fca20293aa40d506596971afbcd7ba821da8c1ac
