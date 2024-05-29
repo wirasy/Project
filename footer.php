@@ -20,10 +20,10 @@
 
       <div class="box">
          <h3>contact info</h3>
-         <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-         <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
-         <p> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </p>
-         <p> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </p>
+         <p> <i class="fas fa-phone"></i> +62 857-456-7890 </p>
+         <p> <i class="fas fa-phone"></i> +62 877-7893-0619 </p>
+         <p> <i class="fas fa-envelope"></i> HadiStore@gmail.com </p>
+         <p> <i class="fas fa-map-marker-alt"></i> lumajang, enggres - 27190403 </p>
       </div>
 
       <div class="box">

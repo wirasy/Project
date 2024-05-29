@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --purple:#8e44ad;
-   --red:#c0392b;
+   --purple:#000000;
+   --red:#d41d09;
    --orange:#f39c12;
-   --black:#333;
-   --white:#b0bd3d;
-   --light-color:#666;
+   --black:#333333;
+   --white:#e8e9de;
+   --light-color:#bda9a9;
    --light-white:#c94545;
-   --light-bg:#a3aa41;
+   --light-bg:#e2e4c7;
    --border:.1rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -184,6 +184,7 @@ section{
 .form-container form{
    padding:2rem;
    width: 50rem;
+   height: 60rem;
    border-radius: .5rem;
    box-shadow: var(--box-shadow);
    border:var(--border);
@@ -193,7 +194,7 @@ section{
 
 .form-container form h3{
    font-size: 3rem;
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
    text-transform: uppercase;
    color:var(--black);
 }
@@ -210,7 +211,7 @@ section{
 }
 
 .form-container form p{
-   padding-top: 1.5rem;
+   padding-top: 3rem;
    font-size: 2rem;
    color:var(--black);
 }
