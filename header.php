@@ -28,10 +28,9 @@ if(isset($message)){
          <a href="home.php" class="logo">My BOOK</a>
 
          <nav class="navbar">
-            <a href="home.php">H</a>
-            <a href="about.php">A</a>
-            <a href="contact.php">D</a>
-            <a href="orders.php">I</a>
+            <a href="home.php">Home</a>
+            <a href="about.php">Abaout</a>
+            <a href="contact.php">Contact</a>
          </nav>
 
          <div class="icons">
