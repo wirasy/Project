@@ -56,6 +56,7 @@ if(isset($_GET['delete'])){
       <p> message : <span><?php echo $fetch_message['message']; ?></span> </p>
       <a href="admin_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('delete this message?');" class="delete-btn">delete message</a>
    </div>
+   
    <?php
       };
    }else{
