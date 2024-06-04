@@ -15,7 +15,7 @@ if(isset($_POST['update_order'])){
    $order_update_id = $_POST['order_id'];
    $update_payment = $_POST['update_payment'];
    mysqli_query($conn, "UPDATE `orders` SET payment_status = '$update_payment' WHERE id = '$order_update_id'") or die('query failed');
-   $message[] = 'payment status has been updated!';
+   $message[] = 'Payment status has been updated!';
 
 }
 
@@ -57,7 +57,7 @@ if(isset($_GET['delete'])){
          while($fetch_orders = mysqli_fetch_assoc($select_orders)){
       ?>
       <div class="box">
-         <p> User id : <span><?php echo $fetch_orders['user_id']; ?></span> </p>
+         <p> User id : <span><?php echo $fetch_orders['id']; ?></span> </p>
          <p> Placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
          <p> Name : <span><?php echo $fetch_orders['name']; ?></span> </p>
          <p> Number : <span><?php echo $fetch_orders['number']; ?></span> </p>
@@ -80,7 +80,7 @@ if(isset($_GET['delete'])){
       <?php
          }
       }else{
-         echo '<p class="empty">no orders placed yet!</p>';
+         echo '<p class="empty">No orders placed yet!</p>';
       }
       ?>
    </div>

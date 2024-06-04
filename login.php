@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
 
          $_SESSION['user_name'] = $row['name'];
          $_SESSION['user_email'] = $row['email'];
-         $_SESSION['user_id'] = $row['id'];
+         $_SESSION['id'] = $row['id'];
          header('location:home.php');
 
       }
@@ -71,11 +71,11 @@ if(isset($message)){
 <div class="form-container">
 
    <form action="" method="post">
-      <h3>login now</h3>
-      <input type="email" name="email" placeholder="enter your email" required class="box">
-      <input type="password" name="password" placeholder="enter your password" required class="box">
-      <input type="submit" name="submit" value="login now" class="btn">
-      <p>don't have an account? <a href="register.php">Register now</a></p>
+      <h3>Login now</h3>
+      <input type="email" name="email" placeholder="Enter your email" required class="box">
+      <input type="password" name="password" placeholder="Enter your password" required class="box">
+      <input type="submit" name="submit" value="Login now" class="btn">
+      <p>Don't have an account? <a href="register.php">Register now</a></p>
    </form>
 
 </div>
