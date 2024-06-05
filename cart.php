@@ -4,7 +4,7 @@ include 'config.php';
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['id'];
 
 if(!isset($user_id)){
    header('location:login.php');
@@ -14,7 +14,7 @@ if(isset($_POST['update_cart'])){
    $cart_id = $_POST['cart_id'];
    $cart_quantity = $_POST['cart_quantity'];
    mysqli_query($conn, "UPDATE `cart` SET quantity = '$cart_quantity' WHERE id = '$cart_id'") or die('query failed');
-   $message[] = 'cart quantity updated!';
+   $message[] = 'Cart quantity updated!';
 }
 
 if(isset($_GET['delete'])){

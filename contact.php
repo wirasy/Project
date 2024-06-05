@@ -19,10 +19,10 @@ if(isset($_POST['send'])){
    $select_message = mysqli_query($conn, "SELECT * FROM `message` WHERE name = '$name' AND email = '$email' AND message = '$msg'") or die('query failed');
 
    if(mysqli_num_rows($select_message) > 0){
-      $message[] = 'message sent already!';
+      $message[] = 'Message sent already!';
    }else{
       mysqli_query($conn, "INSERT INTO `message`(id, name, email, message) VALUES('$user_id', '$name', '$email', '$msg')") or die('query failed');
-      $message[] = 'message sent successfully!';
+      $message[] = 'Message sent successfully!';
    }
 
 }
@@ -64,13 +64,6 @@ if(isset($_POST['send'])){
    </form>
 
 </section>
-
-
-
-
-
-
-
 
 <?php include 'footer.php'; ?>
 
